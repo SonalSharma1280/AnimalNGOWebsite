@@ -1,0 +1,245 @@
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Donate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="valid.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="nav">
+  <div id="email">
+  <p>Pawland@gmail.com</p>
+</div>
+    
+<div class="icons">
+<li><a href="https://www.facebook.com/"target="_blank" >
+  <i class="fa fa-nav-f fa-nav fa-facebook"></i></a></li>
+  <li><a href="https://www.instagram.com/"target="_blank" >
+  <i class="fa fa-nav-i fa-nav fa-instagram"></i></a></li>
+ <li> <a href="https://twitter.com/explore"target="_blank" >
+  <i class="fa fa-nav-t fa-nav fa-twitter"></i></a></li>
+  <li><a href="https://www.youtube.com/"target="_blank" >
+  <i class="fa fa-nav-y fa-nav fa-youtube"></i></a></li>
+</div>
+
+
+</div> 
+
+<div class="header">
+<!--logo-->
+  <div class="logo">
+  </div>
+<!--horizontal list-->
+<div class="horizontal-list">
+<ul class="menu-bar ">
+  <li ><a href="home.html" class="active">Home</a></li>
+  <li><a href="about.html">About us</a></li>
+  <li><a href="Contact.html">contact us</a></li>
+  <li><a href="join.html">Join with us</a></li>
+  <li><a href="Register a case.html">Register a case</a></li>
+</ul>
+</div>
+<!--buttons-->
+<div class="buttons">
+  <div class="adopt-btn">
+  <button class="button1" >Adopt Now</button>
+  <ul class="dropdown-list">
+        <li><a href="Adog.html">Dog adoption</a></li>
+        <li><a href="Acat.html">Cat adoption</a></li>
+        <li><a href="Acow.html">Cow adoption</a></li>
+  </ul>
+  </div>
+  <div class="donate-btn">
+<a href="Donate now.html">
+  <button type="button" class="button2">Donate now</button>
+</a>
+</div>
+</div>
+<!--heading-->
+<div class="main">
+       <div class="heading">
+        <h1>The value of life is not in its duration, but in its donation. You are not important because of how long you live, you are important because of how effective you live....</h1>
+       </div>
+<!--form-->       
+        <div class="form-style">
+            <h2 align="center">Donation</h2>
+            <form name="form1" method="post" action="#" Onsubmit="return fncValidate();" autocomplete="off">
+                <table align="center" width="400" border="0">
+                    <tr>
+                        <td width="125">&nbsp;Firstname</td>
+                        <td width="180"><div class="input-group">
+                            <input type="text" name="fname" size="20"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125">&nbsp;Lastname</td>
+                        <td width="180"><div class="input-group">
+                            <input type="text" name="lname" size="20"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <textarea name="address" class="textarea-field"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><input type="text" name="city" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td><input type="text" name="state" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>PIN:</td>
+                        <td><input type="password" name="pin" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td><div vlass="input-group">
+                            <select id="country">
+                                <option value="">Choose a country</option>
+                                <option value="">India</option>
+                                <option value="">Pakistan</option>
+                                <option value="">Nepal</option>
+                            </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="tel" name="phoneno" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Email Address:</td>
+                        <td><input type="email" name="email" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Credit Card Number:</td>
+                        <td><input type="password" name="creditcard" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Expiration Date:</td>
+                        <td><div vlass="input-group">
+                            <select id="month">
+                                <option value="">Month</option>
+                                <option value="">Jan</option>
+                                <option value="">Feb</option>
+                                <option value="">Mar</option>
+                                <option value="">April</option>
+                                <option value="">May</option>
+                                <option value="">June</option>
+                                <option value="">July</option>
+                                <option value="">Aug</option>
+                                <option value="">Sept</option>
+                                <option value="">Oct</option>
+                                <option value="">Nov</option>
+                                <option value="">Dec</option>
+                            </select>
+                            
+                            
+                            <select id="Year">
+                                <option value="">Year</option>
+                                <option value="">2021</option>
+                                <option value="">2022</option>
+                                <option value="">2023</option>
+                            </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Security Code:</td>
+                        <td><input type="password" name="securitycode" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Card holder's name:</td>
+                        <td><input type="text" name="cname" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>Amount:</td>
+                        <td><input type="Number" name="amt" size="20" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="submit" name="Submit" value="Submit" class="btn">&nbsp&nbsp
+                            <input type="reset" name="Reset" value="Reset" class="btn">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="footter">
+        <!--footer-->
+        <div class="main-content">
+    <div class="boxes">
+      <h2>About us</h2>
+      <div class="content">
+        <p>We’re saving more animals now than at any point in our history, but our work isn’t done until every animal gets the chance to know care<br> and companionship in a safe and loving home.</p>
+       
+        </div>
+      </div>
+      <div class="boxes">
+        <h2>Address</h2>
+        <div class="content">
+          <p>Hatkot,kunihar,Tehsil Arki,Distt.Solan(Himachal Pradesh)</p><br>
+          <p>+91 7807242811</p><br>
+          <p>Pawland@gmail.com</p>
+        </div>
+      </div>
+      <div class="boxes">
+        <h2>Enquiry</h2>
+        <div class="content">
+          <form action="#">
+           <label for="email">E-mail*</label><br>
+              <input type="email" required><br>
+            <label for="massage">Message</label><br>
+              <textarea name="name" row="2" cols="25" required=""></textarea>
+            </form>
+            </div>
+            <div class="end-button">
+              <button type="submit">Send</button>
+            </div>
+</div>
+</div>
+ <div class="social">
+        <a href="https://www.facebook.com/"target="_blank" >
+        <i class="fa fa-nav-f fa-nav fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"target="_blank" >
+        <i class="fa fa-nav-i fa-nav fa-instagram"></i></a>
+        <a href="https://twitter.com/explore"target="_blank" >
+        <i class="fa fa-nav-t fa-nav fa-twitter"></i></a>
+        <a href="https://www.youtube.com/"target="_blank" >
+        <i class="fa fa-nav-y fa-nav fa-youtube"></i></a>
+          </div>
+
+</div>
+
+<!--script for adoptbutton-->
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.button1').click(function(){
+          $('.dropdown-list').toggleClass('active')
+        })
+      })
+    </script>
+
+<!--script for adoptbutton end-->
+
+
+                
+                
+    </body>
+</html>
+    
+    
+        
+                            
